@@ -155,7 +155,7 @@ class UsePaypalState extends State<UsePaypal> {
       },
       child: Scaffold(
           appBar: AppBar(
-            backgroundColor: const Color(0xFF272727),
+            backgroundColor: const Color(0xFFFFFFFF),
             leading: GestureDetector(
               child: const Icon(Icons.arrow_back_ios),
               onTap: () => Navigator.pop(context),
